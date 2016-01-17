@@ -1,6 +1,8 @@
 body
 {
+	font-family: Raleway;
     background-color: white;
+    position: center;
 }
 
 h1 span
@@ -8,14 +10,8 @@ h1 span
 	font-weight: normal;
 }
 
-.linechanger
-{
-	line-height: 20px ;
-}
-
 .title
 {
-	font-family: Raleway;
 	font-size: 20px;
 	line-height: .5;
 	text-align: center;
@@ -24,7 +20,6 @@ h1 span
 
 .subtitle
 {
-	font-family: Raleway;
 	font-weight: 300;
 	line-height: .1;
 	text-align: center;
@@ -39,6 +34,68 @@ h1 span
 .mypic
 {
 	text-align: center;
+}
+
+.tabs
+{
+	width:100%;
+	display:inline-block;
+}
+
+.tab-links:after
+{
+	display:block;
+	clear:both;
+	content:'';
+}
+
+.tab-links li
+{
+	margin:0px 10px;
+	float:left;
+	list-style:none;
+}
+
+.tab-links a
+{
+	padding: 3px 15px;
+	display:inline-block;
+	border-radius:3px 3px 0px 0px;
+	background: #FFFFAA;
+	font-size: 13px;
+	font-weight:300;
+	color:#4c4c4c;
+	transition: all linear 0.15s;
+}
+
+.tab-links a:hover
+{
+	background:#a7cce5;
+	text-decoration:none;
+}
+
+li.active a, li.active a:hover
+{
+	background:#fff;
+	color:#4c4c4c;
+}
+
+.tab-content
+{
+	padding:15px;
+	border-radius:3px;
+	box-shadow:-1px 1px 1px rgba(0,0,0,0.15);
+	background:###f;
+}
+
+.tab
+{
+	display:none;
+}
+
+.tab.active
+{
+	display: block;
 }
 
 .intro
