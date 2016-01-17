@@ -29,10 +29,16 @@ h1 span
 	line-height: .1;
 	text-align: center;
 }
+
 .business-card
 {
 	text-align: center;
 	font-size: 20px;
+}
+
+.mypic
+{
+	text-align: center;
 }
 
 .intro
@@ -43,8 +49,4 @@ h1 span
 	font-size: 20px;
 }
 
-.image
-{
-	text-align: center;
-}
 
