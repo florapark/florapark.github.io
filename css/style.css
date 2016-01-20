@@ -6,16 +6,23 @@ body
     text-align: center;
 }
 
+h1 span, h3 span
+{
+	font-weight: 300;
+}
+
 .title
 {
 	line-height: .5;
+	position:relative;
 }
 
 .subtitle
 {
-	font-size: 15px;
 	font-weight: 300;
+	color: #5c5c5c;
 	line-height: .1;
+	position:relative;
 }
 
 .tabs
@@ -54,16 +61,21 @@ body
 	content:'';
 }
 
-.tab-links ul li a
+.tab-links ul a
 {
 	padding: 3px 15px;
 	display:inline-block;
 	border-radius:3px 3px 0px 0px;
-	background: #FFFFAA;
-	font-size: 13px;
+	background: #ffffaa;
+	font-size: 15px;
 	font-weight:300;
-	color:#4c4c4c;
+	color:#000000;
 	transition: all linear 0.15s;
+}
+
+.tab-links a, .business-card a
+{
+	text-decoration: none;
 }
 
 .tab-links a:hover
@@ -72,15 +84,26 @@ body
 	text-decoration:none;
 }
 
-li.active a, li.active a:hover
+li.active a, li.active, a:hover
 {
-	background:#fff;
+	background:#ffffff;
 	color:#4c4c4c;
 }
 
 .tab-content
 {
-	padding:15px;
+	padding:5px;
+	font-size: 13px;
+	line-height: 1.7;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.tab-content a
+{
+	/*color:#FF3B8E;*/
+	color: #4c4c4c;
+
 }
 
 .tab
@@ -91,4 +114,19 @@ li.active a, li.active a:hover
 .tab.active
 {
 	display: block;
+}
+
+#photography
+{
+	line-height: .8;
+}
+
+footer
+{
+	font-size: 10px;
+	color: #4c4c4c;
+	position: fixed;
+	left:40%;
+	right:40%;
+	bottom:3px;
 }
