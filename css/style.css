@@ -4,9 +4,10 @@ body
 	font-size: 20px;
     background-color: white;
     text-align: center;
+    width: 100%;
 }
 
-h1 span, h3 span
+h2 span, h3 span
 {
 	font-weight: 300;
 }
@@ -117,6 +118,11 @@ li.active a, li.active, a:hover
 }
 
 #photography
+{
+	line-height: .8;
+}
+
+#video
 {
 	line-height: .8;
 }
