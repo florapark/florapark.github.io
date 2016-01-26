@@ -4,7 +4,6 @@ body
 	font-size: 20px;
     background-color: white;
     text-align: center;
-    width: 100%;
 }
 
 h2 span, h3 span
@@ -16,6 +15,7 @@ h2 span, h3 span
 {
 	line-height: .5;
 	position:relative;
+	width: 100%;
 }
 
 .subtitle
@@ -24,6 +24,7 @@ h2 span, h3 span
 	color: #5c5c5c;
 	line-height: .1;
 	position:relative;
+	width: 100%;
 }
 
 .tabs
@@ -94,8 +95,9 @@ li.active a, li.active, a:hover
 .tab-content
 {
 	padding:5px;
-	font-size: 13px;
+	font-size: 12px;
 	line-height: 1.7;
+	width: 100%;
 }
 
 .tab-content a
