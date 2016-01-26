@@ -97,7 +97,6 @@ li.active a, li.active, a:hover
 	padding:5px;
 	font-size: 12px;
 	line-height: 1.7;
-	width: 100%;
 }
 
 .tab-content a
@@ -117,6 +116,10 @@ li.active a, li.active, a:hover
 	display: block;
 }
 
+#video
+{
+	line-height: .5;
+}
 footer
 {
 	font-size: 10px;
