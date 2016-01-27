@@ -33,7 +33,7 @@ p span
 
 .business-card
 {
-	line-height: 3;
+	line-height: 2.8;
 }
 
 .tabs
@@ -110,6 +110,22 @@ li.active a, li.active, a:hover
 	display: block;
 }
 
+#leadership img
+{
+	max-width: 100%;
+	width: 130px;
+}
+
+#professional img
+{
+	max-width: 100%;
+	width: 150px;
+}
+
+#atcarta a
+{
+	font-weight: 150px;
+}
 
 .intro img
 {
@@ -122,8 +138,7 @@ footer
 	font-size: .5rem;
 	color: #4c4c4c;
 	position: relative;
-	margin-top: 2rem;
-	margin-bottom: 1rem;
+	margin-top: 1rem;
 	text-align: center;
 }
 
