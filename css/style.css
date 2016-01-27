@@ -1,30 +1,39 @@
-body
+html, body
 {
 	font-family: Raleway;
 	font-size: 20px;
     background-color: white;
     text-align: center;
+    line-height: 1.5;
+    color: #000000;
 }
 
-h2 span, h3 span
+h2 span, h5 span
 {
 	font-weight: 300;
+}
+
+p span
+{
+	font-weight: 600;
 }
 
 .title
 {
-	line-height: .5;
 	position:relative;
-	width: 100%;
+	font-size: 2.5rem;
+	font-weight: 600;
 }
 
 .subtitle
 {
-	font-weight: 300;
-	color: #5c5c5c;
-	line-height: .1;
 	position:relative;
-	width: 100%;
+	color: #5c5c5c;
+}
+
+.business-card
+{
+	line-height: 3;
 }
 
 .tabs
@@ -35,25 +44,14 @@ h2 span, h3 span
 
 .tab-links ul
 {
-	clear:left;
-	float:left;
-	list-style:none;
-	position:relative;
-	margin: 0;
-	padding: 0;
-	left:50%;
-	text-align:center;
+	text-align: center;
+	list-style: none;
+	font-size: 0;
 }
 
 .tab-links ul li
 {
-	display:block;
-	float:left;
-	list-style:none;
-	margin:0;
-	padding:0;
-	position:relative;
-	right: 50%;
+	display: inline-block;
 }
 
 .tab-links:after
@@ -69,9 +67,8 @@ h2 span, h3 span
 	display:inline-block;
 	border-radius:3px 3px 0px 0px;
 	background: #ffffaa;
-	font-size: 15px;
-	font-weight:300;
-	color:#000000;
+	font-size: .9rem;
+	color: #000000;
 	transition: all linear 0.15s;
 }
 
@@ -83,7 +80,7 @@ h2 span, h3 span
 .tab-links a:hover
 {
 	background:#a7cce5;
-	text-decoration:none;
+	text-decoration: none;
 }
 
 li.active a, li.active, a:hover
@@ -95,15 +92,12 @@ li.active a, li.active, a:hover
 .tab-content
 {
 	padding:5px;
-	font-size: 12px;
-	line-height: 1.7;
+	font-size: .85rem;
 }
 
 .tab-content a
 {
-	/*color:#FF3B8E;*/
 	color: #4c4c4c;
-
 }
 
 .tab
@@ -116,17 +110,25 @@ li.active a, li.active, a:hover
 	display: block;
 }
 
-#video
+
+.intro img
 {
-	line-height: .5;
+	max-width: 100%;
+	width: 300px;
 }
+
 footer
 {
-	font-size: 10px;
+	font-size: .5rem;
 	color: #4c4c4c;
-	position: fixed;
-	left:40%;
-	right:40%;
-	bottom:3px;
-	padding: 1rem;
+	position: relative;
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+	text-align: center;
+}
+
+@media screen and (max-width: 640px) {
+	html, body {
+		font-size: 1rem;
+	}
 }
