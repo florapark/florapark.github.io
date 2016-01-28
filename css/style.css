@@ -94,7 +94,7 @@ li.active a, li.active, a:hover
 .tab-content
 {
 	padding:5px;
-	font-size: .85rem;
+	font-size: .7rem;
 }
 
 .tab-content a
@@ -140,6 +140,7 @@ li.active a, li.active, a:hover
 	max-width: 100%;
 	width: 300px;
 	height: 200px;
+	padding-top: 3px;
 }
 
 .intro img
