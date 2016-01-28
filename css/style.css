@@ -67,8 +67,9 @@ p span
 {
 	display:inline-block;
 	border-radius:3px 3px 0px 0px;
+	padding: 3px 10px;
 	background: #ffffaa;
-	font-size: .9rem;
+	font-size: .8rem;
 	color: #000000;
 	transition: all linear 0.15s;
 }
@@ -161,11 +162,6 @@ footer
 	html, body
 	{
 		font-size: 1rem;
-	}
-
-	.tabs
-	{
-		width:100%;
 	}
 
 	.tab-links ul a
