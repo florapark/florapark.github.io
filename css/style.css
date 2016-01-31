@@ -130,18 +130,18 @@ li.active a, li.active, a:hover
 	font-weight: 150px;
 }
 
-#photography, #video
+#creativity
 {
 	font-size: .7rem;
 }
 
-#photography img
+#creativity img
 {
 	max-height: 50%;
 	height: 170px;
 }
 
-#video iframe
+#creativity iframe
 {
 	max-width: 100%;
 	width: 300px;
