@@ -187,45 +187,12 @@ footer
 
 	#creativity img
 	{
-		max-height: 100%;
 		height: 200px;
 	}
 }
 
-/* iphone 6 */
-@media screen and (max-width: 375px){
-	html, body
-	{
-		font-size: 15px;
-	}
-
-	.tab-links ul a
-	{
-		display:inline-block;
-		font-size: 0.8rem;
-		padding: 3px 7px;
-	}
-
-	.tab-content
-	{
-		line-height: 2;
-	}
-
-	.tab-content p
-	{
-		line-height: 2;
-	}
-
-	#creativity img
-	{
-		width: 60px;
-		height: 90px;
-	}
-}
-
-
 /* iphone 6 plus*/
-@media screen and (max-width: 414px){
+@media screen and (max-width: 480px){
 	html, body
 	{
 		font-size: 15px;
@@ -240,7 +207,7 @@ footer
 
 	.tab-content
 	{
-		line-height: 3;
+		line-height: 2;
 	}
 
 	.tab-content p
@@ -250,7 +217,38 @@ footer
 
 	#creativity img
 	{
-		width: 75px;
-		height: 120px;
+		width: 130px;
+		height: 190px;
+	}
+}
+
+/* iphone 6 */
+@media screen and (max-width: 375px){
+	html, body
+	{
+		font-size: 15px;
+	}
+
+	.tab-links ul a
+	{
+		display: inline-block;
+		font-size: 1rem;
+		padding: 3px 7px;
+	}
+
+	.tab-content
+	{
+		line-height: 2;
+	}
+
+	.tab-content p
+	{
+		line-height: 2;
+	}
+
+	#creativity img
+	{
+		width: 100px;
+		height: 150px;
 	}
 }
