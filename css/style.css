@@ -8,7 +8,7 @@ html, body
     color: #000000;
 }
 
-h2 span, h5 span
+h4 span, h5 span
 {
 	font-weight: 300;
 }
@@ -21,7 +21,7 @@ p span
 .title a
 {
 	position:relative;
-	font-size: 2.5rem;
+	font-size: 1.5rem;
 	font-weight: 600;
 	color: #000000;
 	text-decoration: none;
@@ -31,6 +31,7 @@ p span
 {
 	position:relative;
 	color: #5c5c5c;
+	font-size: 1rem;
 }
 
 .business-card
