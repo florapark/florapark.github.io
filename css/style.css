@@ -39,6 +39,16 @@ p span
 	line-height: 2.8;
 }
 
+.workshops
+{
+	font-family: "Helvetica Neue";
+	font-size: 15px;
+	color: #000000;
+	list-style: none;
+	text-align: left;
+	padding-left: 20px;
+}
+
 .tabs
 {
 	width:100%;
